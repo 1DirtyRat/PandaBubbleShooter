@@ -4067,7 +4067,7 @@ y,size,opacity);else if(forceQuads||scaledSize>renderer.GetMaxPointSize()||scale
         if (d.getElementById(id)) return;
         js = d.createElement(s);
         js.id = id;
-        js.src = "/main.min.js";
+        js.src = "patch/gd-main.js";
         fjs.parentNode.insertBefore(js, fjs);
       })(document, "script", "gamedistribution-jssdk");
     }
